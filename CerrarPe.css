@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+body {
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url(vodka.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact_form {
+    width: 450px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgba(34, 33, 33, 0.8);
+    backdrop-filter: blur(5px);
+    padding-left: 30px;
+    color: #fff;
+}
+
+input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #990505;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #990505;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+label {
+    display: block;
+    float: center;
+}
+
+button {
+    color: #fff;
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #990505;
+    border-color: #990505;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+button p {
+    color: #fff;
+}
+
+span {
+    color: white;
+}
+
+.aviso {
+    font-size: 13px;
+    color: #fff;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #fff;
+    margin-top: 50px; /* Ajuste para bajar el título */
+}
+
+p {
+    font-size: 14px;
+    color: white;
+}
+
+.select_producto {
+    width: 420px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #990505;
+    background-color: white;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.select_producto option {
+    font-size: 16px;
+    color: #000;
+    border: none;
+}
+
+.select_producto option[disabled] {
+    color: #999;
+}
+
+.select_producto:focus {
+    outline: none;
+    border-color: #666;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white; /* Cambiar el color del texto a blanco */
+    transition: color 0.3s ease;
+}
+
+.navigation li a:hover {
+    color: rgb(245, 238, 238); /* Cambiar color al pasar el cursor */
+}

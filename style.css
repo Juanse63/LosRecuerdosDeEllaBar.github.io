@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #080808;
+}
+
+form{
+    height: 90vh;
+    width: 65%;    
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 1px 5px rgba(99, 98, 98, 0.233);
+    background-color: #ffffff;
+    position: relative;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+}
+
+.left img{
+    width: 100%;
+    height: 100%;
+}
+
+.rigth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+.rigth h1{
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.rigth .entry{
+    display: flex;    
+}
+
+.rigth .entry input{
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.rigth-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+.rigth-register .entry {
+    display: flex;
+    flex-direction: column;
+}
+
+.rigth-register .entry input {
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    width: 400px;
+}
+
+option, select{
+  
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    width: 400px;
+}
+
+.special-input{
+    width: 400px;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    background-color: #9c0a16;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: .4s;    
+}
+
+.special-input:hover{    
+    background-color: #68070f;
+    transition: .4s;    
+    cursor: pointer;
+}
+
+a{
+    color: #9c0a16!important;
+}
+
+samp{
+    color: white;
+}
+
+.registerH1{
+    margin-bottom: 30px;
+}
+
+.logo{
+    width: 350px;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.navigation li:last-child {
+    margin-right: 0;
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 2px;
+    transition: 700ms;
+    color: #FFFFFF;
+}
+
+.navigation li a:hover {
+    color: #9c0a16;
+}
+
+
+

@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+body{
+	height: 100%; 
+	font-family: 'Noto Sans', sans-serif;
+    background-image: url(tr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;;
+}
+
+
+.contact_form {
+    width: 450px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgba(34, 33, 33, 0.8); 
+    backdrop-filter: blur(5px);
+    padding-left: 30px;
+    color: #fff;
+}
+
+input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 30px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #990505; 
+	margin-top: 10px;  
+	padding-left: 10px;
+margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #990505; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+	float: center; 	
+}
+
+
+button {
+    color: #990505;
+    height: 45px;
+    padding-left: 15px; 
+    padding-right: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #d40909;
+    border: none;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+
+button p{
+	color: #fff; 
+}
+
+
+span{
+	color: white; 
+}
+
+
+.aviso{
+	font-size: 13px;  
+	color: #fff;  
+}
+
+
+h1{
+	font-size: 35px;  
+	text-align: center; 
+	padding-bottom: 20px; 
+	color: #fff;
+}
+
+
+p{
+	font-size: 14px; 
+	color: white 
+}
+
+
+@media only screen and (max-width: 600px) {
+  } 
+
+.contact_form {
+    width: 450px;
+  }
+  
+  @media only screen and (min-width: 600px) and (max-width: 960px) {
+    .contact_form {
+      width: 70%; 
+    }
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    .contact_form {
+      width: 90%;
+    }
+  }
+  
